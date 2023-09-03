@@ -41,6 +41,12 @@ mongoose.connect(dbUrl, {
 app.use(express.json());
 app.use(requestLogger); // подключаем логгер запросов
 app.use(limiter);
+//! Краш-тест сервера удалить после успеш ревью
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
 // роуты регестрации
 app.use('/', authRout);
 // роут авторизация

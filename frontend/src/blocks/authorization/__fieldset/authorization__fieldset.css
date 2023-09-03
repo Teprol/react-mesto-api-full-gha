@@ -1,0 +1,9 @@
+.authorization__fieldset {
+    padding: 0;
+    border: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 216px;
+}

@@ -1,0 +1,23 @@
+.authorization__import {
+  padding: 0;
+  padding-bottom: 12px;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  color: #ccc;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.authorization__import::placeholder {
+  color: #ccc;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

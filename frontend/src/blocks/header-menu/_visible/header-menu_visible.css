@@ -1,0 +1,5 @@
+.header-menu_visible {
+    display: flex;
+    padding: 0;
+    border-bottom: none;
+}

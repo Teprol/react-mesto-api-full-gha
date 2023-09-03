@@ -1,0 +1,9 @@
+.element__content-container {
+  box-sizing: border-box;
+  background-color: var(--card-background-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 21px;
+  column-gap: 32px;
+}

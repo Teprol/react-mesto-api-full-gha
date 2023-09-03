@@ -1,0 +1,31 @@
+.popup__save {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 14px 0;
+  background-color: var(--page-background-color);
+  border: none;
+  border-radius: 2px;
+
+  color: var(--font-main-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 460px) {
+  .popup__save {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.popup__save:hover,
+.popup__save:active,
+.popup__save:focus {
+  background-color: #000000cc;
+  transition: background-color 0.34s;
+}

@@ -1,0 +1,4 @@
+.main__profile {
+  box-sizing: border-box;
+  margin: 0 0 calc(36px + (50 - 36) * ((100vw - 320px) / (1280 - 320)));
+}

@@ -1,0 +1,8 @@
+.element {
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+  color: var(--font-card-color);
+
+  position: relative;
+}

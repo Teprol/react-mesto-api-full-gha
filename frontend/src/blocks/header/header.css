@@ -1,0 +1,9 @@
+.header {
+  box-sizing: border-box;
+  padding: calc(28px + (45 - 28) * ((100vw - 320px) / (1280 - 320)))
+    calc(27px + (0 - 27) * ((100vw - 320px) / (1280 - 320)))
+    calc(30px + (41 - 30) * ((100vw - 320px) / (1280 - 320)));
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #545454b3;
+}

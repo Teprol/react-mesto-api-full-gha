@@ -1,0 +1,11 @@
+.popup__save_disabled {
+  border: 1px solid #00000033;
+  color: #00000033;
+
+  background-color: #fff;
+  cursor: default;
+}
+
+.popup__save_disabled:hover {
+  background-color: #fff;
+}

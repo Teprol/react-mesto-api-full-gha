@@ -1,0 +1,14 @@
+.profile {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .profile {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

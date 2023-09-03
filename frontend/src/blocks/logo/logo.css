@@ -1,0 +1,7 @@
+.logo {
+  box-sizing: border-box;
+  width: calc(104px + (142 - 104) * ((100vw - 320px) / (1280 - 320)));
+  height: calc(25px + (33 - 25) * ((100vw - 320px) / (1280 - 320)));
+
+  display: block;
+}

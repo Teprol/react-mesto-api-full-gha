@@ -1,0 +1,23 @@
+.authorization__button {
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  border-radius: 2px;
+  padding: 14px 0;
+  cursor: pointer;
+
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.authorization__button:active {
+  opacity: 0.8500000238418579;
+}

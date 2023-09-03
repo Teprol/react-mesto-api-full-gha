@@ -1,0 +1,4 @@
+.container {
+  box-sizing: border-box;
+  padding: 0 calc(19px + (0 - 19) * ((100vw - 320px) / (700 - 320)));
+}

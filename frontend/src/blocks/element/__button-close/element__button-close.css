@@ -1,0 +1,9 @@
+.element__button-close {
+  width: 18px;
+  height: 19px;
+  background: url("../../../images/Trash.svg") center;
+
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

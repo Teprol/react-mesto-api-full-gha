@@ -1,0 +1,11 @@
+.edit-button {
+  box-sizing: border-box;
+  width: calc(18px + (24 - 18) * ((100vw - 320px) / (1024 - 320)));
+  height: calc(18px + (24 - 18) * ((100vw - 320px) / (1024 - 320)));
+  border: 1px solid var(--font-main-color);
+  padding: calc(4px + (6 - 4) * ((100vw - 320px) / (1024 - 320)));
+
+  background-image: url("../../images/edit.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}

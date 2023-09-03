@@ -1,0 +1,22 @@
+.header-menu_mobile {
+  display: flex;
+  flex-direction: column;
+  animation: open .2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes open {
+  from {
+    height: 1px;
+  }
+  to {
+    height: initial;
+  }
+}
+
+
+@media screen and (min-width: 1023px){
+  .header-menu_mobile {
+    display: none;
+  }
+}

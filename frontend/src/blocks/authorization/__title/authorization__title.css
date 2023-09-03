@@ -1,0 +1,10 @@
+.authorization__title {
+  margin: 0 0 50px;
+  color: var(--font-main-color);
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}

@@ -1,0 +1,4 @@
+.footer {
+  box-sizing: border-box;
+  padding-bottom: calc(36px + (60 - 36) * ((100vw - 320px) / (1280 - 320)));
+}

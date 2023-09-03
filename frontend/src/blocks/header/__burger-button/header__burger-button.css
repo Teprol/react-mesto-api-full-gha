@@ -1,0 +1,8 @@
+.header__burger-button {
+}
+
+@media screen and (min-width: 1023px) {
+  .header__burger-button {
+    display: none;
+  }
+}

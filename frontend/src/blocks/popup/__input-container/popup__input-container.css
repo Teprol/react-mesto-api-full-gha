@@ -1,0 +1,19 @@
+.popup__input-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 34px; */
+
+  /* margin-bottom: 46px; */
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (min-width: 460px) {
+  .popup__input-container {
+    /* row-gap: 34px; */
+  }
+}

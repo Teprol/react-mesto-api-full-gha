@@ -1,0 +1,22 @@
+.add-button {
+  box-sizing: border-box;
+  padding: 23px 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 282px;
+  border: 2px solid var(--font-main-color);
+  border-radius: 2px;
+
+  background: url("../../images/add.svg") center no-repeat;
+  background-size: 16px 16px;
+}
+
+@media screen and (min-width: 1024px){
+  .add-button {
+    margin: 0;
+    max-width: 150px;
+    padding: 24px 0;
+
+    background-size: 22px 22px;
+  }
+}

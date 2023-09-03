@@ -1,0 +1,15 @@
+.footer__copyright {
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1024 - 320)));
+  line-height: calc(17px + (22 - 17) * ((100vw - 320px) / (1024 - 320)));
+  color: var(--font-color-footer);
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__copyright {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

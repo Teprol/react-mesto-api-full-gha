@@ -1,0 +1,14 @@
+.popup__error {
+  display: flex;
+  padding-top: 5px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: var(--error-color);
+
+  min-height: 30px;
+}

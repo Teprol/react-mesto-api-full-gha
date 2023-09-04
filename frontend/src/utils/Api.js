@@ -109,7 +109,7 @@ class Api {
 }
 
 export const api = new Api({
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'https://api.bobrov.nomoredomainsicu.ru',
   headers: {
     authorization: `Bearer ${localStorage.getItem('token')}`,
     'Content-Type': 'application/json'

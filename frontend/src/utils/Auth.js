@@ -1,6 +1,6 @@
 class Auth {
     constructor() {
-        this._baseUrl = 'http://localhost:3000';
+        this._baseUrl = 'https://api.bobrov.nomoredomainsicu.ru';
     };
 
     //при ошибке выводит в консоль посвеченную надпись об ошибке
